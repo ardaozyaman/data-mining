@@ -1,0 +1,85 @@
+Column,Description
+id,Unique listing identifier assigned by AutoScout24.
+description,Textual description of the vehicle listing.
+Ratings,
+ratings_average,Average rating of the seller or vehicle.
+ratings_count,Number of total ratings.
+ratings_recommend_percentage,Percentage of users recommending the seller or vehicle.
+Pricing,
+price_currency,Currency of the listed price (default: EUR).
+price,Listed vehicle price (numeric).
+price_tax_deductible,Indicates if VAT is deductible.
+price_negotiable,Indicates if the price is negotiable.
+price_net,Net price before VAT (if available).
+price_vat_rate,VAT rate applied to the listing (in %).
+Vehicle,
+vin,Vehicle Identification Number (if available).
+make,"Vehicle manufacturer (e.g., BMW, Audi, Volkswagen)."
+model,Vehicle model name.
+model_version,"Model or trim version (e.g., “320d Touring”)."
+german_hsn_tsn,German type approval code (HSN/TSN).
+mileage_km_raw,Raw mileage value extracted from listing.
+mileage_km,Vehicle mileage in kilometers.
+registration_date,First registration date.
+production_year,Year of manufacture.
+vehicle_type,"General type of the vehicle (e.g., car, van, truck)."
+body_type,"Body style (e.g., sedan, SUV, hatchback)."
+nr_seats,Number of seats.
+nr_doors,Number of doors.
+body_color,Exterior color of the vehicle.
+paint_type,"Paint type (e.g., metallic, solid)."
+body_color_original,Original factory color name.
+upholstery,"Type of upholstery (e.g., leather, fabric)."
+upholstery_color,Color of the upholstery.
+power_kw,Engine power in kilowatts.
+power_hp,Engine power in horsepower.
+transmission,Type of transmission (manual or automatic).
+gears,Number of gears.
+drive_train,"Drive configuration (front-wheel, rear-wheel, all-wheel)."
+cylinders,Number of engine cylinders.
+cylinders_volume_cc,Engine displacement in cubic centimeters.
+weight_kg,Vehicle weight in kilograms.
+Fuel / Energy,
+has_particle_filter,Boolean flag indicating presence of particle filter.
+fuel_category,"Category of fuel (e.g., Diesel, Petrol, Electric)."
+primary_fuel,Primary fuel used by the vehicle.
+electric_range_km,Electric driving range (in kilometers).
+electric_range_city_km,Electric range achievable in city driving (km).
+fuel_cons_comb_l100_km,Combined fuel consumption (liters per 100 km).
+fuel_cons_city_l100_km,City fuel consumption (liters per 100 km).
+fuel_cons_highway_l100_km,Highway fuel consumption (liters per 100 km).
+co2_emission_grper_km,CO₂ emissions in grams per kilometer.
+fuel_cons_comb_l100_wltp_km,"Combined fuel consumption (WLTP, liters per 100 km)."
+fuel_cons_electric_comb_l100_wltp_km,"Combined electric consumption (WLTP, liters-equivalent per 100 km)."
+co2_emission_grper_wltp_km,"CO₂ emissions (WLTP, grams per kilometer)."
+Equipment / Features,
+equipment_comfort,"List of comfort-related features (e.g., heated seats, panoramic roof)."
+equipment_entertainment,"List of entertainment or media features (e.g., Bluetooth, sound system)."
+equipment_extra,List of extra or miscellaneous features.
+equipment_safety,"List of safety-related features (e.g., ABS, lane assist)."
+Flags / Booleans,
+is_used,Boolean: True if the vehicle is used.
+is_new,Boolean: True if the vehicle is new.
+is_preregistered,Boolean: True if the vehicle was preregistered.
+had_accident,Boolean: True if the car had an accident history.
+has_full_service_history,Boolean: True if a complete service history exists.
+non_smoking,Boolean: True if declared as a non-smoking vehicle.
+nr_prev_owners,Number of previous vehicle owners.
+is_rental,Boolean: True if the car was used as a rental.
+Miscellaneous,
+envir_standard,"Environmental standard (e.g., Euro 6)."
+original_market,Original sales market of the vehicle.
+offer_type,"Type of offer (e.g., sale, lease)."
+Location,
+country_code,Country code of the listing location.
+zip,Postal code of the listing location.
+city,City where the vehicle is listed.
+street,Street name of the seller or dealer.
+latitude,Latitude coordinate of the listing.
+longitude,Longitude coordinate of the listing.
+Seller,
+seller_is_dealer,Boolean flag: True if seller is a dealership.
+seller_type,"Seller type (private, dealer, company, etc.)."
+seller_company_name,Seller’s company name (if applicable).
+has_warranty,Indicates if the car has a warranty.
+warranty,Text description of warranty details.
